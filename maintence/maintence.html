@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" lang="pt-br">
+        <title>Página em manutenção!</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@800&display:swap');
+            *
+            {
+                font-family: 'Comic Neue', cursive;
+                outline: none;
+            }
+            .title
+            {
+                position: fixed;
+                left: 20%;
+                top: 38%;
+                font-size: 50px;
+            }
+            .title strong
+            {
+                font-size: 62px;
+            }
+            .back
+            {
+                background-color: rgb(245, 245, 245);
+                position: fixed;
+                top: 60%;
+                left: 50%;
+                width: 150px;
+                height: 50px;
+                margin-top: 5px;
+                border: 0px;
+                cursor: pointer;
+                font-size: 24px;
+                transition: background-color 0.5s;
+                transform: translate(-50%, -50%);
+            }
+            .back:hover
+            {
+                background-color: rgb(240, 240, 240);
+            }
+        </style>
+    </head>
+    <body>
+        <a class="title"><strong>[</strong>Essa página está em manutenção!<strong>]</strong></a>
+        <button onclick="window.location.assign('#')" class="back">Voltar</button>
+    </body>
+</html>
