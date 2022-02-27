@@ -1,10 +1,10 @@
 {
-    "posts": {
-        "post_1": {
+    "posts": [
+        {
             "title": "Post Title",
             "description": "This is a post",
             "image": "https://i.ibb.co/3CBY7tW/post-1-folha-papel.png",
             "url": "https://google.com"
         }
-    }
+    ]
 }
